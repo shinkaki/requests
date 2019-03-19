@@ -59,7 +59,15 @@ class BaseAdapter(object):
         super(BaseAdapter, self).__init__()
     
     def test_inspecode(self):
-        print('test inspecode')
+        a = True
+        if a:
+            if a:
+                if a:
+                    if a:
+                        if a:
+                            if a:
+                                if a:
+                                    print('test inspecode')
 
     def send(self, request, stream=False, timeout=None, verify=True,
              cert=None, proxies=None):
