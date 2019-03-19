@@ -57,6 +57,9 @@ class BaseAdapter(object):
 
     def __init__(self):
         super(BaseAdapter, self).__init__()
+    
+    def test_inspecode(self):
+        print('test inspecode')
 
     def send(self, request, stream=False, timeout=None, verify=True,
              cert=None, proxies=None):
